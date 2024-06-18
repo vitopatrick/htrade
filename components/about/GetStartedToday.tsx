@@ -3,7 +3,7 @@ export default function GetStartedToday() {
     <section className="my-10 py-10">
       <div>
         <h4 className="text-center py-8 font-header font-bold underline text-2xl">
-          Get Started today with NAGAMARKET
+          Get Started today with rjobrienhub
         </h4>
       </div>
       <div className="flex flex-col md:flex-row items-center gap-4 justify-center">

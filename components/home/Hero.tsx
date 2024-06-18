@@ -11,7 +11,7 @@ export default function Hero() {
             Everything a trader needs in one platform
           </h4>
           <p className="font-body text-neutral-500 text-xl">
-            At NAGAMARKET, we believe that everyone should have{" "}
+            At rjobrienhub, we believe that everyone should have{" "}
             <span className="font-bold text-black underline capitalize">
               {" "}
               easy, fast and free access

@@ -139,7 +139,7 @@ const RegisterForm = () => {
             <span className="font-semibold text-main underline">It's Free</span>
           </h4>
           <p className="font-body underline">
-            Trade the global markets with nagamarkets
+            Trade the global markets with rjobrienhubs
           </p>
         </div>
         <form

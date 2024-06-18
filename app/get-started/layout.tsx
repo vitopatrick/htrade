@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Get started with Nagamarkets",
+  title: "Get started with rjobrienhubs",
   description: "Start your easy trading Today",
 };
 

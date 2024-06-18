@@ -15,20 +15,20 @@ export default [
     id: 3,
     title: "Mobile and Web Interface",
     about:
-      "Trade on the go with NAGAMARKET mobile apps for iOS and Android devices.",
+      "Trade on the go with rjobrienhub mobile apps for iOS and Android devices.",
     img: "https://naga.com/images/new-main-page/why-choose-naga/icon-3.svg",
   },
   {
     id: 4,
     title: "Discover Copy-Trading",
-    about: "Discover other investors on NAGAMARKET and copy their traders.",
+    about: "Discover other investors on rjobrienhub and copy their traders.",
     img: "https://naga.com/images/new-main-page/why-choose-naga/icon-4.svg",
   },
   {
     id: 5,
     title: "Free Daily News and Trading Signals",
     about:
-      "Get the latest market updates in your NAGAMARKET Feed and copy trading signals from the selected providers.",
+      "Get the latest market updates in your rjobrienhub Feed and copy trading signals from the selected providers.",
     img: "https://naga.com/images/new-main-page/why-choose-naga/icon-5.svg",
   },
   {

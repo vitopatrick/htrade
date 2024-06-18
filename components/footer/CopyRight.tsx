@@ -4,7 +4,7 @@ export default function CopyRight() {
       <p>Copyright © {new Date().getFullYear()} – All rights reserved.</p>
       <div>
         <p>
-          NAGAMARKET is a trademark of The NAGAMARKET Group AG, a FinTech
+          rjobrienhub is a trademark of The rjobrienhub Group AG, a FinTech
           company publicly listed on the Frankfurt Stock Exchange | WKN: A161NR
           | ISIN: DE000A161NR7.
         </p>
@@ -17,7 +17,7 @@ export default function CopyRight() {
         money rapidly due to leverage. You should consider whether you
         understand how derivatives work and whether you can afford to take the
         high risk of losing your money. This is not investment advice. Trading
-        with NAGAMARKET Trader by following and/or copying or replicating the
+        with rjobrienhub Trader by following and/or copying or replicating the
         trades of other traders involves high levels of risks, even when
         following and/or copying or replicating the Lead Traders. Such risks
         include the risk that you may be following/copying the trading decisions

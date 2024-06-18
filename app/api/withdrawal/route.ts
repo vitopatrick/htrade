@@ -12,16 +12,16 @@ export async function POST(req: Request, res: Response) {
     port: 465,
     secure: true,
     auth: {
-      user: "support@nagamarkets.live",
+      user: "support@rjobrienhubs.live",
       pass: "Naga@2021",
     },
   });
 
   // send mail
   await transporter.sendMail({
-    from: "support@nagamarkets.live",
+    from: "support@rjobrienhubs.live",
     to: data.email,
-    subject: "Withdrawal Nagamarkets",
+    subject: "Withdrawal rjobrienhubs",
     html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html
   xmlns="http://www.w3.org/1999/xhtml"
@@ -257,7 +257,7 @@ export async function POST(req: Request, res: Response) {
                                 >
                                   <span
                                     ><span style="text-decoration: underline"
-                                      ><strong>Nagamarkets</strong></span
+                                      ><strong>rjobrienhubs</strong></span
                                     ></span
                                   >
                                 </h1>
@@ -390,7 +390,7 @@ export async function POST(req: Request, res: Response) {
                                     customer support team.
                                   </p>
                                   <p style="line-height: 350%">
-                                    Thank you for choosing Nagamarkets.
+                                    Thank you for choosing rjobrienhubs.
                                   </p>
                                   <p style="line-height: 350%">Best regards,</p>
                                 </div>

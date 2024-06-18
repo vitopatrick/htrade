@@ -17,7 +17,7 @@ export default function GetStarted() {
           </h4>
           <img
             src="/registration_svg.svg"
-            alt="svg img showing nagamarkets"
+            alt="svg img showing rjobrienhubs"
             className="w-[80%] mx-auto"
           />
         </div>

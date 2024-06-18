@@ -8,7 +8,7 @@ export default function HeroTwo() {
         {/* child One @return text */}
         <div className="flex md:items-start text-center md:text-left items-center  flex-col gap-6">
           <h4 className="font-header text-2xl capitalize py-2 font-bold">
-            Enjoy the simplicity of money management with NAGAMARKET
+            Enjoy the simplicity of money management with rjobrienhub
           </h4>
           <p className="font-body text-neutral-500 text-xl">
             Use your own Virtual NAGA Card, IBAN Account, send and receive

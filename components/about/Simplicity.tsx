@@ -7,7 +7,7 @@ export default function Simplicity() {
       {/* child One @return text */}
       <div className="text-center space-y-3">
         <h4 className="font-header text-2xl capitalize py-2 font-bold">
-          Enjoy the simplicity of money management with NAGAMARKET
+          Enjoy the simplicity of money management with rjobrienhub
         </h4>
         <p className="font-body text-neutral-500 text-xl">
           Use your own Virtual NAGA Card, IBAN Account, send and receive money,

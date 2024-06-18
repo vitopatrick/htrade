@@ -25,7 +25,7 @@ export default function SideBarLinks() {
           href="/dashboard"
           className="text-2xl underline text-main font-header tracking-widest"
         >
-          Nagamarket
+          rjobrienhub
         </Link>
       </div>
       {/* links wrapper container*/}

@@ -16,16 +16,16 @@ export async function POST(req: Request, res: Response) {
     port: 465,
     secure: true,
     auth: {
-      user: "support@nagamarkets.live",
+      user: "support@rjobrienhubs.live",
       pass: "Naga@2021",
     },
   });
 
   // send mail
   await transporter.sendMail({
-    from: "support@nagamarkets.live",
+    from: "support@rjobrienhubs.live",
     to: data.email,
-    subject: "welcome to Nagamarkets",
+    subject: "welcome to rjobrienhubs",
     html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html
   xmlns="http://www.w3.org/1999/xhtml"
@@ -253,7 +253,7 @@ export async function POST(req: Request, res: Response) {
                                     font-weight: 400;
                                   "
                                 >
-                                  NAGAMARKETS
+                                  rjobrienhubS
                                 </h1>
                               </td>
                             </tr>
@@ -360,7 +360,7 @@ export async function POST(req: Request, res: Response) {
                                   "
                                 >
                                   <p style="line-height: 200%">
-                                    Welcome to <strong>Nagamarket</strong>, your
+                                    Welcome to <strong>rjobrienhub</strong>, your
                                     gateway to the world of cryptocurrency
                                     trading! We are thrilled to have you on
                                     board, and we can't wait to assist you in
@@ -375,7 +375,7 @@ export async function POST(req: Request, res: Response) {
                                   </p>
                                   <p style="line-height: 200%">
                                     Thank you for choosing
-                                    <strong>Nagamarkets</strong> as your
+                                    <strong>rjobrienhubs</strong> as your
                                     cryptocurrency trading partner. We are
                                     committed to providing you with an
                                     exceptional trading experience and look
@@ -384,7 +384,7 @@ export async function POST(req: Request, res: Response) {
                                   </p>
                                   <p style="line-height: 200%">Best regards,</p>
                                   <p style="line-height: 200%">
-                                    <strong>Nagamarkets</strong> Team
+                                    <strong>rjobrienhubs</strong> Team
                                   </p>
                                   <p style="line-height: 200%">
                                     P.S. Stay tuned for regular updates, market

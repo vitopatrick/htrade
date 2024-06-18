@@ -7,7 +7,7 @@ export default function WhyChooseUs() {
       <div className="my-10">
         <h4 className="text-xl text-neutral-500 font-bold md:text-2xl py-3 font-header">
           Why do people choose{" "}
-          <span className="font-bold text-main underline">NAGAMARKET</span>
+          <span className="font-bold text-main underline">rjobrienhub</span>
         </h4>
       </div>
       {/* why choose us Grid*/}

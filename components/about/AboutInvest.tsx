@@ -10,7 +10,7 @@ export default function AboutInvest() {
           Invest, trade, copy all in one App
         </h4>
         <p className="font-body text-neutral-500 text-xl">
-          At NAGAMARKET, we believe that everyone should have{" "}
+          At rjobrienhub, we believe that everyone should have{" "}
           <span className="font-bold text-black underline capitalize">
             {" "}
             easy, fast and free access
