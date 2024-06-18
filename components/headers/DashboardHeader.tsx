@@ -1,18 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import TradingModal from "../modals/TradingModal";
 import { Dispatch, SetStateAction, useState } from "react";
 import { useFetchUser } from "@/hooks/useFetchUser";
-import { FaBars, FaTimes } from "react-icons/fa";
 
 type DashboardHeaderProps = {
   toggle: Dispatch<SetStateAction<boolean>>;
 };
 
 export default function DashboardHeader({ toggle }: DashboardHeaderProps) {
-  const [isOpen, setIsOpen] = useState(false);
-
   // get the user name using the useFetchUser hook
   const { userState: user, loading }: { userState: any; loading: boolean } =
     useFetchUser();
@@ -31,21 +27,8 @@ export default function DashboardHeader({ toggle }: DashboardHeaderProps) {
           </Link>
         </div>
       )}
-      <div className="flex items-center gap-3">
-        <button
-          onClick={() => setIsOpen(true)}
-          className="bg-red-600 px-6 py-2 rounded-lg text-white font-body hover:bg-red-500"
-        >
-          Trade Live
-        </button>
-        <div className="mx-3 p-2 md:hidden block">
-          <FaBars
-            className="text-white cursor-pointer"
-            onClick={() => toggle(true)}
-          />
-        </div>
-      </div>
-      <TradingModal isOpen={isOpen} toggle={setIsOpen} />
+
+      {/* <TradingModal isOpen={isOpen} toggle={setIsOpen} /> */}
     </header>
   );
 }
